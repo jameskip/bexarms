@@ -11,6 +11,11 @@ h1 {
   color: red;
 }
 
+#reflect {
+  -webkit-box-reflect: below 0px -webkit-gradient(linear, right top, right
+        bottom, from(transparent), to(rgba(255, 255, 255, 0.4)));
+}
+
 #soon {
   color: rgba(255, 255, 255, 0.5);
   -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
